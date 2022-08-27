@@ -29,9 +29,12 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      PYTHON: "3.9"
+      PYTHON: "3.7"
 
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
       - name: Set up Python 3.9
         uses: actions/setup-python@v2
         with:
