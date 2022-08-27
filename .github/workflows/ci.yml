@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      PYTHON: "3.9"
+      PYTHON: "3.7"
 
     steps:
       - name: Checkout code
