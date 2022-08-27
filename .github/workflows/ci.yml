@@ -3,7 +3,7 @@ name: CI
 on: push
 
 jobs:
-  #============================ Lint ============================
+  #============================ lint ============================
   lint:
     name: lint
     runs-on: ubuntu-latest
@@ -23,7 +23,7 @@ jobs:
           VALIDATE_PYTHON_BLACK: true
           VALIDATE_PYTHON_FLAKE8: true
 
-  #========================== Test =============================
+  #========================== unittest =============================
   test:
     name: unittest
     runs-on: ubuntu-latest
